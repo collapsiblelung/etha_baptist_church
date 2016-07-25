@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="../vendor/framework/grid.css">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
   </head>
-  <style>
-  </style>
-  </head>
   <body>
-    <header>
-      <h1>Etha Baptist Church</h1>
-      <nav>
-        <ul class="navigation">
-          <li><a>About</a></li>
-          <li><a>Announcements</a></li>
-          <li><a>Calendar</a></li>
-          <li><a>Staff</a></li>
-          <li><a>Media</a></li>
-          <li><a>Resources</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <div class="item">
-      </div>
-      <div class="item">
-      </div>
-    </section>
+    <content class="grid">
+      <header class="row">
+        <div class="logo row col-4"> 
+          <img src="../assets/logo.png" />
+          <h1>Etha Baptist Church</h1>
+        </div>
+        <nav class="row col-8">
+          <ul class="navigation row">
+            <li class="vertical-center"><a>About</a></li>
+            <li class="vertical-center"><a>Announcements</a></li>
+            <li class="vertical-center"><a>Calendar</a></li>
+            <li class="vertical-center"><a>Staff</a></li>
+            <li class="vertical-center"><a>Media</a></li>
+            <li class="vertical-center"><a>Resources</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="row info">
+        <div class="item col-6">
+          <iframe class="horizontal-center" src="https://www.youtube.com/embed/au5Ev8kzDj0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="item vertical-center col-6">
+          <div class="subitem image">
+            <img src="../assets/first_time.jpg" />
+          </div>
+          <div class="subitem">
+            <h2>Service Times</h2>
+            <li>Sunday School: 9:30 A.M.</li> 
+            <li>Worship Service: 10:30 A.M.</li> 
+            <li>Evening Service: 5:30 P.M.</li> 
+            <li>Wednesday Service: 7:00 P.M.</li> 
+            <li>Thursday Service (Recovery): 6:30 P.M.</li> 
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <p class="intro col-12">
+         Welcome, and thank you for visiting Etha Baptist Church online. We hope that our website highlights the wide variety of worship, fellowship and service opportunities available. Please feel free to read more about our church on this site, or come in for a visit. We would love to greet you and share with you our love for Jesus Christ and for you, our neighbor. 
+        </p>
+        </section>
+        <section class="col-12">
+          <h5 class="contact">Contact Us</h5>
+        </section>
+    </content>
   </body>
-  </html>
+</html>
 
